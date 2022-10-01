@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/TbgbjPk6N6",
+      "domain": "http://djsodabot.ga"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "http://djsodabot.ga/callback",
+        "clientID": "1025521017252225065",
+        "secret": "fyIU3S8Mp6A7BCn0y94qA0WBfnfbibEb"
+    }
+  }
